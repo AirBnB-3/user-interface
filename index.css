@@ -1,0 +1,272 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 10px;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html{
+   
+   
+    background-image: url(https://images.unsplash.com/photo-1497290756760-23ac55edf36f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60);
+    background-attachment: fixed;
+    background-size: cover;
+  
+  }
+  
+  header img{
+    border-radius: 5px;
+    object-fit: cover;
+    width: 50%;
+    height: 120px;
+    margin: 10px;
+  }
+  .login{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      border: 1px solid black;
+      padding: 40px;
+      border-radius: 15px;
+      margin-top: 20px;
+      color: white;
+      background-color:black;
+      margin-bottom: 20px;
+  }
+  .login h2{
+      width: 50%;
+  }
+  .login p{
+      width: 50%;
+  }
+  .log{
+      color:black;
+      text-decoration: none;
+      border: 1px solid white;
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: white;
+  }
+  .sign{
+      color: white;
+      text-decoration: none;
+      border: 1px solid red;
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: #ff6f69;
+  }
+  
+  .signUp{
+      display:flex;
+      justify-content: flex-end;
+  }
+  .info{
+      display: flex;
+      justify-content: space-evenly;
+      
+      border: 1px solid black;
+      padding: 5px 10px;
+      border-radius: 20px;
+      background-color: black;
+      
+  }
+  h1{
+      display: flex;
+      justify-content: center;
+      font-size: 2rem;
+      margin-top: 20px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    border-top: 1px solid black;
+    height: 70px;
+    font-size: 15px;
+    align-items: center
+  }
+  .home{
+    text-decoration: none;
+    color:black;
+    border-radius: 20px;
+    width: auto;
+    color: white;
+  }
+  .home:hover{
+    text-decoration: underline;
+  }
+  .about{
+    text-decoration: none;
+    color:black;
+    border-radius: 20px;
+    width: 50px;
+    color: white;
+  }
+  .about:hover{
+    text-decoration: underline;
+  }
+  .contact{
+    text-decoration: none;
+    color:black;
+    border-radius: 20px;
+    width: auto;
+    color: white;
+  }
+  .contact:hover{
+    text-decoration: underline;
+  }
+
+ 
+
+  .mid img{
+    border-radius: 5px;
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+  }
+  .mid{
+   display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  }
+  .bottom img{
+    border-radius: 5px;
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+  }
+  footer{
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 5px;
+    margin-top: 40px;
+    color: white;
+    background-color:black;
+  }
+  .office{
+    border:1px solid black;
+    padding: 40px;
+    border-radius: 5px;
+    
+  }
+  .bop{
+    display:flex;
+    justify-content: center;
+  }
+  .office p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+  }
+  .office h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.0rem;
+  }
+  .cool{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .mid{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    border-radius:20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .boom{
+      width:100%;
+      color: white;
+      text-decoration: none;
+      border-top: 1px solid black;
+      padding-top:20px;
+      border-bottom: 1px solid black;
+      padding-bottom:20px;
+  }
+  .boom:hover{
+      text-decoration: underline;
+  }
+  .us img{
+    width: 20%;
+    height: 20%;
+    margin: 25px;
+    border-radius: 5px;
+    }
+    .us{
+     display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+    .user{
+        text-decoration: none;
+        color:black;
+       
+        padding: 5px 20px;
+        display: flex;
+        justify-content: center;
+        
+
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    .user:hover{
+        text-decoration: underline;
+    }
+    .profile{
+        display:flex;
+        justify-content: center;
+        
+    }
+    .profile img{
+        width: 33%;
+        display: flex;
+        border-right: 1px solid #000000;
+        border-radius: 50%;
+    }
+    .names{
+        display:flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+ 
