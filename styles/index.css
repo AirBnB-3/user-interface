@@ -54,6 +54,7 @@ table {
 html{
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(250, 250, 250);
 }
 
 header{
@@ -82,6 +83,7 @@ header #navbar{
 }
 header #navbar a{
     width: 10%;
+    font-size: 1.6rem;
     margin: 0 2%;
     text-align: center;
     border: 4px solid#FF5A5F;
@@ -124,6 +126,7 @@ section{
     margin: 2% 0;
     width: 80%;
     align-items: center;
+    padding: 1.5% 0;
 }
 #top img{
     width: 80%;
@@ -133,7 +136,7 @@ section{
     flex-direction: column ;
     align-items: center;
     margin-left: -15%;
-    background-color: white;
+    background-color: rgb(250, 250, 250);
     border-bottom: 4px solid rgba(105, 105, 105, 0.1);
     border-right: 4px solid rgba(105, 105, 105, 0.1);
     border-radius: 20px;
@@ -141,7 +144,7 @@ section{
     padding: 3%;
 
 }
-#top-welcome h2{
+#top-welcome h1{
     font-size: 5vw;
     text-align: center;
     color: black;
@@ -173,105 +176,163 @@ section{
     cursor: pointer;
 }
 
+/* product description */
+#product-description{
+    display: flex;
+    align-items: center;
+    padding: 2% 0;
+}
+#product-description h3{
+    font-size: 4rem;
+    border-right: 1px solid rgba(105, 105, 105, 0.1);
+    padding-right: 5%;
+}
+#product-description p{
+    font-size: 1.8rem;
+    line-height: 2;
+    padding-left: 2%;
+}
 
 /* list section */
 #feature-set {
     display: flex;
-    padding: 1% 0;
     font-size: 3rem;
     justify-content: space-around;
-    
 }
 #feature-set div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 25%;
     border-bottom: 4px solid rgba(105, 105, 105, 0.1);
     border-right: 4px solid rgba(105, 105, 105, 0.1);
     border-radius: 20px;
     text-align: center;
-    padding: 3%;
-
+    justify-content: center;    
+    padding: 2% 0;
+    margin: 5% 0;
 }
-
+#feature-set img{
+    width: 10rem; 
+    height: 10rem;
+}
+#feature-set h3{
+    margin: 5% 0;
+}
+#feature-set p{
+    font-size: 1.6rem;
+    width: 80%;
+    line-height: 1.3;
+}
 /* footer section */
 footer {
     display: flex;
     justify-content: center;
+    width: 100%;
     align-content: center;
     padding: 2% 0;
     border-top: 1px solid rgba(105, 105, 105, 0.1);
     background-color: #ff5a6010;
     /* font-size: 2em; */
+
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     header{ 
         width: 100%;
     }
-    nav{
-        flex-wrap: wrap;
-    }
-    header nav a{
-        width: 100%; 
-    }
-    header p {
-        width:90%;
+    header #navbar a{
         font-size: 1.2rem;
-        line-height: 1;
+        border: 2px solid #FF5A5F;
     }
-
-    #list{
+    #top-landing{
+        padding-bottom: 10%;
+    }
+    #top{
         flex-wrap: wrap;
         justify-content: space-evenly;
-    }
-    #list div{
-        width:45%;
-        max-height: 200px;
-    }
-    #list #content{
-        font-size: 1.6rem;
         width: 90%;
+        margin-bottom: 15%;
+        margin-top: 8%;
     }
+    #top h1{
+        font-size: 8rem;
+    }
+    #top div{
+        width:100%;
+        max-height: 200px;
+        margin: 0;
+        border: 0;
+    }
+    #top p{
+        font-size: 1.4rem;
+        width: 90%;
 
-}
-@media (max-width: 500px) {
-    #list div{
-        width:45%;
-        max-height: 150px;
     }
-    #list #content{
+    #top a{
+        width: 50%;
         font-size: 1.2rem;
     }
+    #top-welcome p{
+        line-height: 2;
+    }
+    #product-description{
+        flex-direction: column;
+        text-align: center;
+    }
+    #product-description h3{
+        border-right: 0;
+        margin: 5% 0 5% 0;
+    }
+    #product-description p{
+        flex-direction: column;
+        text-align: left;
+        font-size: 1.6rem;
+    }
+    #feature-set div{
+        width: 30%;
+    }
+    #feature-set h3{
+        margin: 15% 0;
+        border-right: 0;
+    }
+    #feature-set p{
+        font-size: 1.2rem;
+    }
+    #feature-set img{
+        width: 5rem;
+        height: 5rem;
+    }
+    #feature-set{
+        font-size: 1.6rem;
+    }
 }
 
-
-
-/*about.html*/
+/*-------------------------------  about.html  -----------------------------------*/
 #top-about{
     display: flex;
     flex-direction: column ;
     align-items: center;
-    background-color: white;
     border-bottom: 1px solid rgba(105, 105, 105, 0.1);
     text-align: center;
     padding: 3%;
-
 }
 #top-about h2{
     font-size: 5vw;
     text-align: center;
     color: black;
 }
-
-#team {
+#team{
     display: flex;
     padding: 1% 0;
     font-size: 3rem;
-    flex-wrap: wrap;
+    width: 86%;
     
 }
 #team-title{
-    width: 10%;
+    width: 8%;
 }
+
 #team-list{
     display: flex;
     flex-wrap: wrap;
@@ -289,13 +350,13 @@ footer {
     padding: 3%;
     margin: 2%;
 }
-
 #mission {
     display: flex;
     padding: 1% 0;
     font-size: 3rem;
     flex-wrap: wrap;
     border-bottom: 0;
+    width: 86%;
 }
 #mission-title{
     width: 10%;
@@ -310,6 +371,55 @@ footer {
     font-size: 1.6rem;
     line-height: 2;
     padding-right: 2%;
-
-
+}
+@media (max-width: 500px) {
+    #top-about{
+        width: 85%;
+    }
+    #top div{
+        width:100%;
+        max-height: 200px;
+        margin: 0;
+        border: 0;
+    }
+    #top a{
+        width: 50%;
+        font-size: 1.2rem;
+    }
+    #mission-title, #team-title{
+        font-size: 1.6rem;
+        text-align: center;
+        width: 40%;
+        padding: 0;
+    }
+    #team{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 90%;
+        align-items: center;
+    }
+    #team-title{
+        width: 30%;
+    }
+    #team-title div{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    }
+    #team-list{
+        font-size: 1.6rem;
+        border: 0;
+    }
+    #mission-content{
+        display: flex;
+        border: 0;
+        order: 1;
+    }
+    #mission-content p{
+        font-size: 1.2rem;
+        line-height: 1.5;
+        width: 100%;
+        text-align: left;
+    }
 }
