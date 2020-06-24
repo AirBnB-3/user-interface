@@ -344,5 +344,17 @@ html{
     footer nav{
         border-top: 1px solid whitesmoke;
     }
+    .image img{
+        width: 20%;
+        height: 20%;
+        margin: 25px;
+        border-radius: 5px;
+    }
+    .image{
+        display: flex;
+       justify-content: center;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+       }
 
  
